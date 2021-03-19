@@ -275,47 +275,6 @@ ax1.imshow(img1, cmap='gray')
 plt.show()
 ```
 
-    Looking in indexes: https://mirror.baidu.com/pypi/simple/
-    Requirement already satisfied: opencv_python in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (4.1.1.26)
-    Requirement already satisfied: numpy>=1.14.5 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from opencv_python) (1.16.4)
-    Looking in indexes: https://mirror.baidu.com/pypi/simple/
-    Collecting scikit-image
-    [?25l  Downloading https://mirror.baidu.com/pypi/packages/fe/01/3a830f3df578ea3ed94ee7fd9f91e85c3dec2431d8548ab1c91869e51450/scikit_image-0.18.1-cp37-cp37m-manylinux1_x86_64.whl (29.2MB)
-    [K     |████████████████████████████████| 29.2MB 9.0MB/s eta 0:00:011
-    [?25hRequirement already satisfied, skipping upgrade: networkx>=2.0 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from scikit-image) (2.4)
-    Requirement already satisfied, skipping upgrade: pillow!=7.1.0,!=7.1.1,>=4.3.0 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from scikit-image) (7.1.2)
-    Collecting numpy>=1.16.5 (from scikit-image)
-    [?25l  Downloading https://mirror.baidu.com/pypi/packages/70/8a/064b4077e3d793f877e3b77aa64f56fa49a4d37236a53f78ee28be009a16/numpy-1.20.1-cp37-cp37m-manylinux2010_x86_64.whl (15.3MB)
-    [K     |████████████████████████████████| 15.3MB 8.3MB/s eta 0:00:011
-    [?25hCollecting tifffile>=2019.7.26 (from scikit-image)
-    [?25l  Downloading https://mirror.baidu.com/pypi/packages/4b/ab/947c548d768e10ef83b03b957b7f2a27cefbaaab1bfa7748d1da21539db9/tifffile-2021.3.17-py3-none-any.whl (163kB)
-    [K     |████████████████████████████████| 163kB 23.8MB/s eta 0:00:01
-    [?25hCollecting PyWavelets>=1.1.1 (from scikit-image)
-    [?25l  Downloading https://mirror.baidu.com/pypi/packages/62/bd/592c7242fdd1218a96431512e77265c50812315ef72570ace85e1cfae298/PyWavelets-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (4.4MB)
-    [K     |████████████████████████████████| 4.4MB 15.1MB/s eta 0:00:01
-    [?25hRequirement already satisfied, skipping upgrade: matplotlib!=3.0.0,>=2.0.0 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from scikit-image) (2.2.3)
-    Requirement already satisfied, skipping upgrade: scipy>=1.0.1 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from scikit-image) (1.3.0)
-    Requirement already satisfied, skipping upgrade: imageio>=2.3.0 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from scikit-image) (2.6.1)
-    Requirement already satisfied, skipping upgrade: decorator>=4.3.0 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from networkx>=2.0->scikit-image) (4.4.0)
-    Requirement already satisfied, skipping upgrade: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image) (2.4.2)
-    Requirement already satisfied, skipping upgrade: cycler>=0.10 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image) (0.10.0)
-    Requirement already satisfied, skipping upgrade: kiwisolver>=1.0.1 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image) (1.1.0)
-    Requirement already satisfied, skipping upgrade: python-dateutil>=2.1 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image) (2.8.0)
-    Requirement already satisfied, skipping upgrade: six>=1.10 in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image) (1.15.0)
-    Requirement already satisfied, skipping upgrade: pytz in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image) (2019.3)
-    Requirement already satisfied, skipping upgrade: setuptools in /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib!=3.0.0,>=2.0.0->scikit-image) (41.4.0)
-    [31mERROR: blackhole 0.3.2 has requirement xgboost==1.1.0, but you'll have xgboost 1.3.3 which is incompatible.[0m
-    Installing collected packages: numpy, tifffile, PyWavelets, scikit-image
-      Found existing installation: numpy 1.16.4
-        Uninstalling numpy-1.16.4:
-          Successfully uninstalled numpy-1.16.4
-    Successfully installed PyWavelets-1.1.1 numpy-1.20.1 scikit-image-0.18.1 tifffile-2021.3.17
-
-
-    /opt/conda/envs/python35-paddle120-env/lib/python3.7/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192 from C header, got 216 from PyObject
-      return f(*args, **kwds)
-
-
 
 ![png](output_14_2.png)
 
